@@ -60,13 +60,13 @@ export default function GeologyPreview({ createGeology }) {
             <strong>Tectonics:</strong> {geology.tectonics}
           </div>
           <div>
-            <strong>Gravity:</strong> {geology.gravity}
+            <strong>Gravity:</strong> {geology.gravity.toFixed(2)}
           </div>
           <div>
             <strong>Mountain Density:</strong> {geology.mountainDensity}
           </div>
           <div>
-            <strong>Habitability:</strong> {geology.habitability}
+            <strong>Habitability:</strong> {geology.habitability.toFixed(2)}
           </div>
           <div>
             <strong>Ocean Coverage:</strong> {Math.round(geology.oceans * 100)}%
